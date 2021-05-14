@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=20mm,bottom=20mm,left=15mm,right=15mm]{geometry} 
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{newtxmath,newtxtext}
+%\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[yyyymmdd]{datetime}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+
+\begin{document}
+
+\begin{titlepage}
+
+%\begin{tikzpicture}[remember picture, overlay]
+%  \draw[line width = 2pt] ($(current page.north west) + (1in,-1in)$) %rectangle ($(current page.south east) + (-1in,1in)$);
+%\end{tikzpicture}
+
+\center % Center everything on the page
+
+\fontsize{16pt}{12} \textbf{ Department of Electronic and Telecommunication Engineering}\\ [0.2cm]
+\fontsize{16pt}{12}\selectfont {UNIVERSITY OF MORATUWA}\\[0.2cm] % Name of your university/college
+
+\fontsize{16pt}{12}\selectfont {Faculty of Engineering}\\[0.3cm] % Major heading such as course name
+\vspace{2cm}
+\includegraphics[width=2in,height=2in,keepaspectratio]{logo.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\fontsize{16pt}{12}\selectfont ENXXX : Module Name\\[0.5cm]
+\fontsize{18pt}{12}\selectfont \textbf{Course Project}\\[1.5cm]
+\fontsize{18pt}{12}\selectfont \textbf{Project Report}\\[3pt] 
+\fontsize{18pt}{12}\selectfont \textbf{Subtitle - line 2}\\[0.5cm]
+\vspace{1cm}
+\fontsize{14pt}{12}\selectfont
+%
+\begin{tabular}{ l l l l}
+\textbf{\textit{Groupe Members :}} \\[3pt]
+\hspace{5mm}NAME1  & 180XXXA & \hspace{20mm}\\[2pt]
+\hspace{5mm}NAME2 & 180XXXB & \hspace{20mm} \\[2pt]
+\hspace{5mm}NAME3  & 180XXXC & \hspace{20mm} \\[2pt]
+  
+\end{tabular}
+
+\vspace{5cm}
+\fontsize{12pt}{12}\selectfont {This is submitted as partial fulfillment for the module ENXXXX: Module Name}\\[0.2cm]
+\fontsize{12pt}{12}\selectfont {Department of Electronic and Telecommunication Engineering,}\\[0.2cm]
+\fontsize{12pt}{10}\selectfont {University of Moratuwa}
+\end{titlepage}
+\end{document}
+
